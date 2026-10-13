@@ -4,9 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projekti 1</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
-    <h1>Moro</h1>
+    <h1>Food Log</h1>
     
+    <h2>Kirjaa päivä</h2>
+    <div id="logDate">
+        <form action="index.html">
+            <label for="logDate">Kirjaa haluamasi päivä:</label>
+            <input type="date" id="date">
+        </form>
+    </div>
+
+    <h2>Kirjaa ateria</h2>
+    <div id="logFood">
+        <form action="index.html">
+            <label for="logFood">Kirjaa haluamasi ateria:</label>
+            <input type="text" id="food">
+        </form>
+    </div>
+
+    <h2>Kirjaa ruoka-ainekset</h2>
+    <div id="logMacros">
+        <form action="index.html">
+            <label for="foodType">Ruoka-aines</label>
+            <input type="text" id="foodType">
+            <label for="foodAmount">Paino</label>
+            <input type="number" id="weight">
+            <label for="logCalories">Kalorit</label>
+            <input type="number" id="calories">
+            <label for="logCalories">Proteiini</label>
+            <input type="number" id="proteins">
+            <label for="logCalories">Rasva</label>
+            <input type="number" id="fats">
+            <label for="logCalories">Hiilihydraatti</label>
+            <input type="number" id="carbs">
+            <input type="submit" value="Lisää">
+        </form>
+    </div>
+
+    <h2>PVM valikko:</h2>
+    <div id="chooseDate">
+        <button id="changeDate">Valitse päivä</button>
+        <h3>Maanantai</h3>
+        <table id="chooseDate">
+            <tr>
+                <th>Ruoka-aines</th>
+                <th>Paino</th>
+                <th>Kalorit</th>
+                <th>Proteiini</th>
+                <th>Rasva</th>
+                <th>Hiilihydraatti</th>
+            </tr>
+            <tr>
+                <td>Kana</td>
+                <td>200g</td>
+                <td>200 kcal</td>
+                <td>40g prot.</td>
+                <td>5g fat.</td>
+                <td>0g carbs</td>
+            </tr>
+            <tr>
+                <th>Yhteensä</th>
+                <th>Paino</th>
+                <th>Kalorit</th>
+                <th>Proteiini</th>
+                <th>Rasva</th>
+                <th>Hiilihydraatti</th>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>200g</td>
+                <td>200 kcal</td>
+                <td>40g prot.</td>
+                <td>5g fat.</td>
+                <td>0g carbs</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="newWeek">
+        <button id="newWeek">Aloita uusi viikko!</button>
+    </div>
+
 </body>
 </html>
