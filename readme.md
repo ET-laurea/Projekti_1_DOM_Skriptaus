@@ -7,8 +7,8 @@ Food log projektimme idea on ruokapäiväkirja sovellus, johon käyttäjä voi k
 Sovelluksen toimintoja on ensinäkin sinun antamasi ruoan ja sen makrojen kirjaaminen talteen sivulle local storagen ansiosta. 2. toiminto on taulukko, johon antamasi tiedot kirjataan haluamallesi päivälle. 3. toiminto on laskuri, joka laskee jokaisen päivän ravintoarvot yhteen. 4 toiminto on nappi joka mahdollistaa yksittäisen ruoan poistamisen taulukosta. Samalla sovelluksesta löytyy nappi jolla pystyt tyhjentämään kaikki antamasi tiedot aloittaaksesi kirjauksen alusta. CSS tyylien tekemiseen on käytetty Bootstrapia.
 
 ## Linkit
-- **Julkaistu sovellus:**
-- **GitHub-repositorio:**
+- **Julkaistu sovellus: https://github.com/ET-laurea/Projekti_1_DOM_Skriptaus/releases/tag/Versio_1.0**
+- **GitHub-repositorio: https://github.com/ET-laurea/Projekti_1_DOM_Skriptaus/tree/main**
 - **Projektin videoesittely:**
 
 ## Rautalankamallit/luonnokset
@@ -24,7 +24,9 @@ Ensimmäinen ideointi paperille, sen jälkeen raaka versio html:llä.
 Työskentely tapahtui suurilta osin yhdessä, Ensimmäisen paperimallin teki Max, jonka jälkeen rautalankamallin html:llä teki Erno. Tämän jälkeinen työskentely tapahtui yhdessä ideoiden ja testaaminen tehtiin molempien ollessa koneillaan discord puhelun välityksellä.
 
 ## Oma arviointi
-Tähän oma arviointi
+Mun mielestä toteutuksen idea oli kokonaisuudessaan hyvä ja toteutus seurasi tehtävänantoa. Saimme tärkeimmät ominaisuudet sopimaan kokonaisuuteen sopivasti. Tietoja on mahdollisuus syöttää hyvinkin monipuolisesti ja järjestelmä tallentaa tiedot ja kirjaa ne muistiin. Syöttökentät tarkistetaan virheellisten syöttöjen välttämiseksi ja virheilmoitus tulee toivotusti.
+
+DOM-skriptauksessa oli haasteita siinä määrin, että vastaan tuli yksityiskohtia joita piti tutkia enemmän ja etsiä apua niiden korjaamiseen. CSS-tyylit jäivät ehkä vähän tyngäksi, mutta sivulla kun ei ole muuta toimivuutta, niin tyhjää tilaa jää paljon. Bootstrapin avulla saimme kuitenkin helposti ehostettua visuaalista mielekkyyttä verrattuna siihen miltä se vakiona näyttäisi.
 
 ## Lähteet
 - **Käytetty tekoälyä:** Google Gemini
