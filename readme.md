@@ -7,8 +7,8 @@ Food log projektimme idea on ruokapäiväkirja sovellus, johon käyttäjä voi k
 Sovelluksen toimintoja on ensinäkin sinun antamasi ruoan ja sen makrojen kirjaaminen talteen sivulle local storagen ansiosta. 2. toiminto on taulukko, johon antamasi tiedot kirjataan haluamallesi päivälle. 3. toiminto on laskuri, joka laskee jokaisen päivän ravintoarvot yhteen. 4 toiminto on nappi joka mahdollistaa yksittäisen ruoan poistamisen taulukosta. Samalla sovelluksesta löytyy nappi jolla pystyt tyhjentämään kaikki antamasi tiedot aloittaaksesi kirjauksen alusta. CSS tyylien tekemiseen on käytetty Bootstrapia.
 
 ## Linkit
-- **Julkaistu sovellus:**
-- **GitHub-repositorio:**
+- **Julkaistu sovellus:** [Lataa Source code](https://github.com/ET-laurea/Projekti_1_DOM_Skriptaus/archive/refs/tags/Versio_1.0.zip)
+- **GitHub-repositorio:** [Repositorio](https://github.com/ET-laurea/Projekti_1_DOM_Skriptaus)
 - **Projektin videoesittely:**
 
 ## Rautalankamallit/luonnokset
@@ -24,7 +24,7 @@ Ensimmäinen ideointi paperille, sen jälkeen raaka versio html:llä.
 Työskentely tapahtui suurilta osin yhdessä, Ensimmäisen paperimallin teki Max, jonka jälkeen rautalankamallin html:llä teki Erno. Tämän jälkeinen työskentely tapahtui yhdessä ideoiden ja testaaminen tehtiin molempien ollessa koneillaan discord puhelun välityksellä.
 
 ## Oma arviointi
-Tähän oma arviointi
+Ensinäkin, onnistuimme mielestäni sovelluksen ideoinnissa erityisen hyvin. Food login idea tuli yhdestä puhelinsovelluksesta jota käytän, jossa voi pitää yllä makroja ja liikuntasuorituksia. Tämän jälkeen aloimme Ernon kanssa rakentamaan rautalankamalleja ja pääsimme hyvin yhteisymmärrykseen millainen sovellus olisi ja pian saimme jo ensimmäisen rautalankamallin html:lle. Toiseksi onnistuimme mielestäni hyvin sovelluksen toimivuudessa. Sovellus toimii mielestäni sulavasti, enkä käyttäessäni ole vielä kokenut mitään ongelmaa. Parantelua sovellus vaatisi ainakin visuaaliselta puolelta. Tyyliltään se on hyvin yksinkertainen ja CSS:än työstämistä olisi pitänyt tehdä enemmän. Taulukkojen asetteluja ja mahdollisia kuvia olisi voinut käyttää, mutta eri haasteiden tuoman ajan puutteen takia se jäi vähäiseksi. Haasteita oli muun muassa lomakkeiden ja taulukoiden työstämisessä javascriptissä. Myös hieman ongelmia teki Githubin ja VSC yhteinen työskentely parin kanssa ja localstorage, sillä en ollut sillä tunnilla jolla näitä asioita käsiteltiin. Kaikenkaikkiaan opin kyllä paljon javascriptistä ja sen sisällä työskentelystä ilman html:än apua. DOM-skriptaus oli myös aivan uusi asia minulle, josta opin pelkästään uutta asiaa ja sain jonkin verran käsitystä miten siinä toimitaan. Antaisin varmaan itse projektista arvosanan 6/10.
 
 ## Lähteet
 - **Käytetty tekoälyä:** Google Gemini
