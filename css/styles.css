@@ -1,3 +1,14 @@
+input.invalid {
+    border: 2px solid red;
+    background-color: #fdf0ef;
+    outline: none;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 4px
+      
 /* Lomakekenttien väli */
 .form-group {
     margin-bottom: 8px;
