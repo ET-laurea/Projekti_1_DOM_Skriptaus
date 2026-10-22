@@ -1,0 +1,15 @@
+/* Lomakekenttien väli */
+.form-group {
+    margin-bottom: 8px;
+}
+
+/* Ravintoarvokenttien väli */
+.form-row {
+    gap: 10px;
+}
+
+/* Pieni sisämarginaali syöttölaatikoihin */
+.form-group input,
+.form-group select {
+    padding: 6px 8px;
+}

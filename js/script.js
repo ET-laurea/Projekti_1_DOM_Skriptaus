@@ -1,6 +1,7 @@
-
+// Local storage tietojen tallentamiseen
 let foodLog = JSON.parse(localStorage.getItem('foodLog')) || [];
 
+// Määritellään elementit
 const foodForm = document.getElementById('foodForm');
 const daySelect = document.getElementById('daySelect');
 const foodTypeInput = document.getElementById('foodType');
@@ -14,6 +15,26 @@ const clearWeekBtn = document.getElementById('clearWeekBtn');
 
 const weekDays = ["Maanantai", "Tiistai", "Keskiviikko", "Torstai", "Perjantai", "Lauantai", "Sunnuntai"];
 
+// Estetään negatiiviset arvot kaikissa numerokentissä
+const numberInputs = [
+    weightInput,
+    caloriesInput,
+    proteinsInput,
+    fatsInput,
+    carbsInput
+];
+
+numberInputs.forEach(input => {
+    input.min = "0";
+
+    input.addEventListener('input', () => {
+        if (input.value !== '' && Number(input.value) < 0) {
+            input.value = 0;
+        }
+    });
+});
+
+// Tarkastetaan syötettyjen arvojen kelvollisuus
 function validateInput() {
     let isValid = true;
 
@@ -37,6 +58,7 @@ function validateInput() {
     return isValid;
 }
 
+// Lomakkeen lähetys
 foodForm.addEventListener('submit', (e) => {
     e.preventDefault();
 
@@ -46,11 +68,11 @@ foodForm.addEventListener('submit', (e) => {
         id: Date.now(),
         day: daySelect.value,
         name: foodTypeInput.value.trim(),
-        weight: Number(weightInput.value) || 0,
-        calories: Number(caloriesInput.value) || 0,
-        proteins: Number(proteinsInput.value) || 0,
-        fats: Number(fatsInput.value) || 0,
-        carbs: Number(carbsInput.value) || 0
+        weight: Math.max(0, Number(weightInput.value) || 0),
+        calories: Math.max(0, Number(caloriesInput.value) || 0),
+        proteins: Math.max(0, Number(proteinsInput.value) || 0),
+        fats: Math.max(0, Number(fatsInput.value) || 0),
+        carbs: Math.max(0, Number(carbsInput.value) || 0)
     };
 
     foodLog.push(newEntry);
@@ -58,6 +80,7 @@ foodForm.addEventListener('submit', (e) => {
     foodForm.reset();
 });
 
+// Ruoka-annosten poistaminen
 daysContainer.addEventListener('click', (e) => {
     if (e.target.classList.contains('delete-btn')) {
         const idToDelete = Number(e.target.dataset.id);
@@ -66,6 +89,7 @@ daysContainer.addEventListener('click', (e) => {
     }
 });
 
+// Ruokapäiväkirjan tyhjentäminen
 clearWeekBtn.addEventListener('click', () => {
     if (confirm('Haluatko varmasti poistaa kaikkien päivien kirjaukset?')) {
         foodLog = [];
@@ -73,17 +97,19 @@ clearWeekBtn.addEventListener('click', () => {
     }
 });
 
+// Tallennetaan tiedot local storage
 function saveAndRender() {
     localStorage.setItem('foodLog', JSON.stringify(foodLog));
     render();
 }
 
+// Ruokapäiväkirjan näkymä
 function render() {
     daysContainer.innerHTML = '';
 
     weekDays.forEach(day => {
         const dayEntries = foodLog.filter(item => item.day === day);
-        if (dayEntries.length === 0) return; // Ei näytetä tyhjiä päiviä
+        if (dayEntries.length === 0) return;
 
         const totals = dayEntries.reduce((acc, curr) => ({
             weight: acc.weight + curr.weight,
