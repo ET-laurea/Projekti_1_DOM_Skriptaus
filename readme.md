@@ -7,9 +7,9 @@ Food log projektimme idea on ruokapäiväkirja sovellus, johon käyttäjä voi k
 Sovelluksen toimintoja on ensinäkin sinun antamasi ruoan ja sen makrojen kirjaaminen talteen sivulle local storagen ansiosta. 2. toiminto on taulukko, johon antamasi tiedot kirjataan haluamallesi päivälle. 3. toiminto on laskuri, joka laskee jokaisen päivän ravintoarvot yhteen. 4 toiminto on nappi joka mahdollistaa yksittäisen ruoan poistamisen taulukosta. Samalla sovelluksesta löytyy nappi jolla pystyt tyhjentämään kaikki antamasi tiedot aloittaaksesi kirjauksen alusta. CSS tyylien tekemiseen on käytetty Bootstrapia.
 
 ## Linkit
-- **Julkaistu sovellus:** [Lataa Source code](https://github.com/ET-laurea/Projekti_1_DOM_Skriptaus/archive/refs/tags/Versio_1.0.zip)
+- **Julkaistu sovellus:** [Lataa Source code](https://github.com/ET-laurea/Projekti_1_DOM_Skriptaus/archive/refs/tags/Versio_1.0.zip) Josta html.file
 - **GitHub-repositorio:** [Repositorio](https://github.com/ET-laurea/Projekti_1_DOM_Skriptaus)
-- **Projektin videoesittely:**
+- **Projektin videoesittely:**[Video](https://youtu.be/ESGb-Q7SCOM)
 
 ## Rautalankamallit/luonnokset
 <img width="600" height="600" alt="DOMprojekti_rautalankapaperi" src="https://github.com/user-attachments/assets/2c54ea0e-cb5a-47a3-8cb8-d6848e836652" />
