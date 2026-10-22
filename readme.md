@@ -4,7 +4,7 @@ Erno Tyrylahti ja Max Mäntymäki
 ### Projektin idea
 Food log projektimme idea on ruokapäiväkirja sovellus, johon käyttäjä voi kirjata ylös viikon aika syömänsä ruoat ja niiden ravintoarvot. Sovellus on tehty niille jotka haluavat pitää yllä terveellisempiä elämäntapoja ja seurata päivittäistä syömistä ja makroja.
 ### Toimintoja
-Sovelluksen toimintoja on ensinäkin sinun antamasi ruoan ja sen makrojen kirjaaminen talteen sivulle local storagen ansiosta. 2. toiminto on taulukko, johon antamasi tiedot kirjataan haluamallesi päivälle. 3. toiminto on laskuri, joka laskee jokaisen päivän ravintoarvot yhteen. 4 toiminto on nappi joka mahdollistaa yksittäisen ruoan poistamisen taulukosta. Samalla sovelluksesta löytyy nappi jolla pystyt tyhjentämään kaikki antamasi tiedot aloittaaksesi kirjauksen alusta.
+Sovelluksen toimintoja on ensinäkin sinun antamasi ruoan ja sen makrojen kirjaaminen talteen sivulle local storagen ansiosta. 2. toiminto on taulukko, johon antamasi tiedot kirjataan haluamallesi päivälle. 3. toiminto on laskuri, joka laskee jokaisen päivän ravintoarvot yhteen. 4 toiminto on nappi joka mahdollistaa yksittäisen ruoan poistamisen taulukosta. Samalla sovelluksesta löytyy nappi jolla pystyt tyhjentämään kaikki antamasi tiedot aloittaaksesi kirjauksen alusta. CSS tyylien tekemiseen on käytetty Bootstrapia.
 
 ## Linkit
 - **Julkaistu sovellus:**
